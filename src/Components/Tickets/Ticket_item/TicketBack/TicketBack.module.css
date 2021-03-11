@@ -1,0 +1,124 @@
+.item {
+    margin: 30px 0;
+}
+  
+.header {
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0087C9;
+}
+
+  
+.logo img {
+    height: 25px;
+}
+  
+.price {
+    color: #fff;
+    text-align: right;
+}
+  
+.price_cost {
+    font-size: 24px;
+    font-weight: 400;
+}
+  
+.price_description {
+    font-size: 12px;
+}
+  
+.direction {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 0 15px;
+    font-size: 17px;
+    border-bottom: 1px solid #E5E5E5;
+}
+  
+.arrow {
+   margin: 0 10px; 
+}
+  
+.arrow img {
+    width: 20px;
+    height: 15px;
+}
+  
+.time_data {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin: 0 15px; 
+}
+
+.duration {
+    display: flex;
+    align-items: center;
+}
+
+.duration img {
+    width: 20px;
+}
+
+.data_date {
+    color:  #258DD0;
+    font-size: 16px;
+}
+
+.transfer {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    color: orange;
+}
+
+.transfer:after {
+    display: block;
+    width:200px;
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid gray;
+    top:50%;
+    left: 0; 
+}
+
+.transfer:before {
+    display: block;
+    width:200px;              
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid gray;
+    top:50%;
+    right: 0;           
+}
+
+.carrier {
+    padding: 5px 15px;
+    margin: 5px 15px;
+}
+
+.button {
+    padding: 5px 20px;
+    background: orange;
+    color: white;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 35px;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+
+    transition: opacity .2s linear;
+}
+
+.button:hover {
+    opacity: .8;
+}
